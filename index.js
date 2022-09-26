@@ -21,23 +21,23 @@ function promptUser() {
         {
             type: "input",
             name: "installation",
-            message: "Provide a description of the installation instructions:",
+            message: "What are the steps required to install your project?",
         },
         {
             type: "input",
             name: "usage",
-            message: "What is this project used for?",
+            message: "Provide instructions and examples for use. Include screenshots as needed.",
         },
         {
             type: "list",
             name: "license",
             message: "Please choose the license used for this project.",
-            choices: [  "Academic", "Apache 2.0", "BSD", "GNU", "MIT", "Mozilla 2.0", "Open"]
+            choices: ["Academic", "Apache", "BSD", "GNU", "MIT", "Mozilla 2.0", "None"]
         },
         {
             type: "input",
             name: "contribution",
-            message: "Who are the contributors to this project?",
+            message: " List your collaborators, if any, with links to their GitHub profiles.",
         },
         {
             type: "input",
@@ -59,12 +59,22 @@ function promptUser() {
 }
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            console.log(err)
+        }
+        console.log("Your README had been successfully created!")
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    promptUser();
-    generateMarkdown();
+    promptUser().then((data) => {
+        writeToFile("GeneratedREADME.md", generateMarkdown(data));
+    });
+
+    
 }
 
 // Function call to initialize app
