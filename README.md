@@ -1,4 +1,3 @@
-
   # README-Generator
 
   ![badge](https://img.shields.io/badge/License-None-blue.svg)<br />
@@ -6,24 +5,25 @@
   ## Description
   A node.js application that takes a user's input and creates a README file for the user's repository.
 
+  ![image](https://user-images.githubusercontent.com/49098706/192612454-b604c136-b576-48cf-baa7-d560ff8bac62.png)
   ## Table of Contents 
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
+  - [Collaborators](#collaborators)
   - [License](#license)
   - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation
-  npm inquirer and npm init
+  NPM Inquirer and NPM Init
   
   ## Usage
-  See Video
+  Watch Video: https://drive.google.com/file/d/197oQ3DKrZS6GtANzZKPqImjW0eS8imbE/view
   
-  ## Credits
+  ## Collaborators
   None
-  
+
   ## License
   None
   
@@ -31,6 +31,6 @@
   None
   
   ## Questions
- Find me on GitHub: [sfhill24](https://github.com/sfhill24)<br /> 
+ Find me on GitHub: Shelly Foxworth-Hill [sfhill24](https://github.com/sfhill24)<br /> 
  </br>
  For additional questions, email me at sfhill@gmail.com.  
