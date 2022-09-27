@@ -4,6 +4,9 @@
 
   ## Description
   A node.js application that takes a user's input and creates a README file for the user's repository.
+  
+  ![image](https://user-images.githubusercontent.com/49098706/192636945-eb7bc88a-eeff-400b-9930-7b8a7ffe3e0c.png)
+
 
   ![image](https://user-images.githubusercontent.com/49098706/192612454-b604c136-b576-48cf-baa7-d560ff8bac62.png)
   ## Table of Contents 
