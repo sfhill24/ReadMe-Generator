@@ -25,4 +25,4 @@ THEN I am taken to the corresponding section of the README
 
 ##Contribution
 Shelly Foxworth-Hill 
-GitHub: sfhill24@github.com
+GitHub: github.com/sfhill24
