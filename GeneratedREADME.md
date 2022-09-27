@@ -1,10 +1,10 @@
 
-  # ReadMe Genorator
+  # ReadMe Generator
 
-  ![badge](https://img.shields.io/badge/License-None-blue.svg)<br />
+  ![badge](https://img.shields.io/badge/License-MIT-blue.svg)<br />
 
   ## Description
-  Node.js application that creates a ReadMe file based on user inputs.
+  A node.js application that generates a readme file.
 
   ## Table of Contents 
 
@@ -19,13 +19,13 @@
   NPM Init and NPM Inquirer
   
   ## Usage
- https://drive.google.com/file/d/197oQ3DKrZS6GtANzZKPqImjW0eS8imbE/view
+  Creates ReadMe files
   
   ## Collaborators
   None
   
   ## License
-  None was used for this project.
+  MIT was used for this project.
   
   ## Tests
   None

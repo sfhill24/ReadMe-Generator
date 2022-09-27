@@ -19,7 +19,7 @@
   NPM Inquirer and NPM Init
   
   ## Usage
-  Watch Video: https://drive.google.com/file/d/197oQ3DKrZS6GtANzZKPqImjW0eS8imbE/view
+  Watch Video: https://drive.google.com/file/d/1kdqmOi8SHfmjEynPuoDUEcI2ZloSwpib/view
   
   ## Collaborators
   None
